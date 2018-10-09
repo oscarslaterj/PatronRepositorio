@@ -12,12 +12,7 @@ namespace PatronRepositorio.BLL.Tests
     [TestClass()]
     public class RepositorioBaseTests
     {
-        [TestMethod()]
-        public void RepositorioBaseTest()
-        {
-            Assert.Fail();
-        }
-
+  
         [TestMethod()]
         public void Guardar()
         {
@@ -29,39 +24,6 @@ namespace PatronRepositorio.BLL.Tests
             Assert.IsTrue(repositorio.Guardar(cuentas));
         }
 
-        private Cuentas GetCuenta()
-        {
-            throw new NotImplementedException();
-        }
-
-        [TestMethod()]
-        public void ModificarTest()
-        {
-            Assert.Fail();
-        }
-
-        [TestMethod()]
-        public void BuscarTest()
-        {
-            Assert.Fail();
-        }
-
-        [TestMethod()]
-        public void EliminarTest()
-        {
-            Assert.Fail();
-        }
-
-        [TestMethod()]
-        public void GetListTest()
-        {
-            Assert.Fail();
-        }
-
-        [TestMethod()]
-        public void DisposeTest()
-        {
-            Assert.Fail();
-        }
+      
     }
 }
