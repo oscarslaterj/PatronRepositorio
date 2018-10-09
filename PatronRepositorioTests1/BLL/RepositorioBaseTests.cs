@@ -21,9 +21,12 @@ namespace PatronRepositorio.BLL.Tests
         [TestMethod()]
         public void Guardar()
         {
+            Cuentas cuentas = new Cuentas();
+            cuentas.CuentaId = 0;
+            cuentas.Descripcion = "Cuenta de Oscar";
             RepositorioBase<Cuentas> repositorio;
             repositorio = new RepositorioBase<Cuentas>();
-            Assert.IsTrue(repositorio.Guardar(GetCuenta()));
+            Assert.IsTrue(repositorio.Guardar(cuentas));
         }
 
         private Cuentas GetCuenta()
