@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PatronRepositorio.UI.Registros;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,12 @@ namespace PatronRepositorio
         public Mainform()
         {
             InitializeComponent();
+        }
+
+        private void registroToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            rCuentas registro = new rCuentas();
+            registro.Show();
         }
     }
 }

@@ -75,7 +75,7 @@
             // BuscarButton
             // 
             this.BuscarButton.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.BuscarButton.Location = new System.Drawing.Point(359, 13);
+            this.BuscarButton.Location = new System.Drawing.Point(304, 6);
             this.BuscarButton.Name = "BuscarButton";
             this.BuscarButton.Size = new System.Drawing.Size(96, 34);
             this.BuscarButton.TabIndex = 4;
@@ -85,7 +85,7 @@
             // NuevoButton
             // 
             this.NuevoButton.BackColor = System.Drawing.Color.White;
-            this.NuevoButton.Location = new System.Drawing.Point(77, 188);
+            this.NuevoButton.Location = new System.Drawing.Point(12, 188);
             this.NuevoButton.Name = "NuevoButton";
             this.NuevoButton.Size = new System.Drawing.Size(105, 48);
             this.NuevoButton.TabIndex = 5;
@@ -95,7 +95,7 @@
             // GuardarButton
             // 
             this.GuardarButton.BackColor = System.Drawing.Color.White;
-            this.GuardarButton.Location = new System.Drawing.Point(216, 188);
+            this.GuardarButton.Location = new System.Drawing.Point(164, 188);
             this.GuardarButton.Name = "GuardarButton";
             this.GuardarButton.Size = new System.Drawing.Size(105, 48);
             this.GuardarButton.TabIndex = 6;
@@ -106,7 +106,7 @@
             // EliminarButtonutton
             // 
             this.EliminarButtonutton.BackColor = System.Drawing.Color.White;
-            this.EliminarButtonutton.Location = new System.Drawing.Point(350, 188);
+            this.EliminarButtonutton.Location = new System.Drawing.Point(295, 188);
             this.EliminarButtonutton.Name = "EliminarButtonutton";
             this.EliminarButtonutton.Size = new System.Drawing.Size(105, 48);
             this.EliminarButtonutton.TabIndex = 7;
@@ -119,7 +119,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(477, 280);
+            this.ClientSize = new System.Drawing.Size(442, 249);
             this.Controls.Add(this.EliminarButtonutton);
             this.Controls.Add(this.GuardarButton);
             this.Controls.Add(this.NuevoButton);
